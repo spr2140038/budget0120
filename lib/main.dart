@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: '', id: null,),
       routes: <String, WidgetBuilder>{
-        '/': (_) => BudgetMain(title: '', ),
+        '/': (_) => BudgetMain(''),
       },
     );
   }
